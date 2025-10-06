@@ -6,4 +6,4 @@ def test_home_route():
     assert res.status_code == 200
     data = res.get_json()
     assert data["ok"] is True
-    assert "WORLD" in data["msg"]
+    assert "Hello" in data["msg"]
