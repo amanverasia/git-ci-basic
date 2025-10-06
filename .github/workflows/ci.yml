@@ -23,3 +23,6 @@ jobs:
 
       - name: Run tests
         run: python -m pytest -q
+        
+      - name: TruffleHog OSS
+        uses: trufflesecurity/trufflehog@v3.90.8
